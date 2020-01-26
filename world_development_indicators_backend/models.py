@@ -3,7 +3,7 @@ import datetime
 
 class WorldDevelopmentIndicators(models.Model):
     country_name = models.CharField(max_length=200)
-    country_code = models.CharField(max_length=10)
+    country_code = models.CharField(max_length=50)
     indicator_name = models.CharField(max_length=100)
     data_type = models.CharField(max_length=50)
     indicator_code = models.CharField(max_length=100)
