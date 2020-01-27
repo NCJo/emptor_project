@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+from .views import ListWorldDevelopmentIndicatorsView
+
 urlpatterns = [
-    path('', views.index, name='index')
+    path('', ListWorldDevelopmentIndicatorsView.as_view(), name="wdi-all")
 ]
