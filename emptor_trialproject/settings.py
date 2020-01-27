@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'world_development_indicators_backend.apps.WorldDevelopmentIndicatorsBackendConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

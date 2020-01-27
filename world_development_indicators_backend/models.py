@@ -71,4 +71,4 @@ class WorldDevelopmentIndicators(models.Model):
 
 
     def __str__(self):
-        return self.indicator_name
+        return "{} - {}".format(self.indicator_name, self.country_name)
