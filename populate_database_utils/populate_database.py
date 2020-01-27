@@ -1,6 +1,6 @@
 '''
 Use django shell to run the script:
-exec(open('./populate_database_utils/populate_database.py).read())
+exec(open('./populate_database_utils/populate_database.py').read())
 
 '''
 import csv

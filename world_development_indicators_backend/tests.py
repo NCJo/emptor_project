@@ -47,7 +47,7 @@ class GetAllDataTest(BaseViewTest):
 
         # The API endpoint
         response = self.client.get(
-            reverse("wdi-all", kwargs={"version": "v1"})
+            reverse("wdi-all")
         )
         # Fetch data from db
         expected = WorldDevelopmentIndicators.objects.all()
