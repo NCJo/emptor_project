@@ -19,4 +19,5 @@ from django.urls import path, include, re_path
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path('display_data/', include('world_development_indicators_backend.urls')),
+    
 ]
