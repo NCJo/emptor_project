@@ -97,7 +97,6 @@ class App extends Component {
     var keys = [];
     for(var k in s) keys.push(k);
     return keys.map((key, index) => {
-      console.log(key)
       if (key != "data_type") {
         return <th key={index}>{key.toUpperCase()}</th>
       }
@@ -107,30 +106,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* {this.state.wdi_data.map(item => (
-          <div key={item.id}>
-            <h1>{item.country_name}</h1>
-            <span>{item.country_code}</span>
-          </div>
-        ))} */}
-      
-        {/* <h2>Showing <strong>{this.state.wdi_data.length} items</strong></h2>
-        <table>
-        <tr>
-        {this.state.wdi_data.map(( listValue, index ) =>
-            <tr key={index}>
-            <td>{listValue.country_name}</td>
-            <td>{listValue.country_code}</td>
-            <td>{listValue.y_1960}</td>
-          </tr>
-          )}
-        </tr>>
-          <tr>
-            {this.state.wdi_data.map(item => 
-              <th>{item.country_name}</th>
-            )}
-          </tr>
-        </table> */}
         <h1 id = 'title'>World Development Indicators</h1>
         <table id='wdi-data'>
           <tbody>
