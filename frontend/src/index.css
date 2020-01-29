@@ -1,0 +1,29 @@
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#wdi-data {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#wdi-data td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#wdi-data tr:nth-child(even){background-color: #f2f2f2;}
+
+#wdi-data tr:hover {background-color: #ddd;}
+
+#wdi-data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(126, 141, 226);
+  color: white;
+}
